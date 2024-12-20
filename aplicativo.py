@@ -173,7 +173,7 @@ if not st.session_state["autenticado"]:
 
 # Configuração de abas
 aba = st.sidebar.selectbox("Selecione a aba", ["Lançamentos", "Visão Geral","Cadastro de Usuario"])
-imagem = st.sidebar.image("pallet_image.png")
+#imagem = st.sidebar.image("pallet_image.png")
 if aba == "Lançamentos":
     
     # Obter dados do banco
